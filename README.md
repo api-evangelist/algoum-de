@@ -64,5 +64,145 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-algoum-de is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://algoum.de/
+algoum provides a SEC EDGAR API delivering insider trades, 8‑K filings and 13F data in clear, plain‑language JSON. It transforms official company disclosures into easy‑to‑read updates for investors and algorithmic traders, offering free access, no ads, and optional API keys for higher‑volume use. The service includes real‑time streaming, MCP integration, and comprehensive documentation, aiming to make financial filings transparent and actionable.
+
+**Areas:** Company · Finance · SEC · InsiderTrading · API
+
+## algoum-de on APIs.io
+
+Everything profiled for algoum-de is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/algoum-de/](https://apis.io/providers/algoum-de/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [algoum-de Common API](https://apis.io/apis/algoum-de/algoum-de-common-api/) — Ticker/CIK resolution and company search, the raw SEC filing behind every record, and the freshness of each data source.
+- [algoum-de Events API](https://apis.io/apis/algoum-de/algoum-de-events-api/) — Material events a company has to disclose – leadership changes, mergers, bankruptcies, cyber incidents and more. Available as searchable history, as a…
+- [algoum-de Insider API](https://apis.io/apis/algoum-de/algoum-de-insider-api/) — Buys and sells reported by officers, directors and 10% owners, plus the signals derived from them (cluster buys, buy/sell ratio). Source are the SEC forms 4…
+- [algoum-de Institutional API](https://apis.io/apis/algoum-de/algoum-de-institutional-api/) — Quarterly portfolios of institutional investors and the aggregated picture per stock. 13F filings are due 45 days after quarter end, so the most recent…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Algoum De Agentic Access](https://apis.io/agentic-access/algoum-de/algoum-de-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ClusterBuy](https://apis.io/schemas/algoum-de/algoum-de-cluster-buy/)
+- [Disclosure](https://apis.io/schemas/algoum-de/algoum-de-disclosure/)
+- [Event](https://apis.io/schemas/algoum-de/algoum-de-event/)
+- [Holding](https://apis.io/schemas/algoum-de/algoum-de-holding/)
+- [InsiderTransaction](https://apis.io/schemas/algoum-de/algoum-de-insider-transaction/)
+- [InstitutionalSentiment](https://apis.io/schemas/algoum-de/algoum-de-institutional-sentiment/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Algoum De Context](https://apis.io/jsonld/algoum-de/algoum-de-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [algoum-de API Rules](https://apis.io/rules/algoum-de/algoum-de-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Algoum De Authentication](https://apis.io/security/algoum-de/algoum-de-authentication/)
+- [Algoum De Domain Security](https://apis.io/security/algoum-de/algoum-de-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Algoum De Scopes](https://apis.io/scopes/algoum-de/algoum-de-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Algoum De Plans Pricing](https://apis.io/plans/algoum-de/algoum-de-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Algoum De Rate Limits](https://apis.io/rate-limits/algoum-de/algoum-de-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://algoum.de/)
+- [Documentation](https://algoum.de/docs)
+- [Getting started](https://algoum.de/docs/getting-started)
+- [API reference](https://algoum.de/docs)
+- [Sign up](https://algoum.de/signup)
+- [Support](https://algoum.de/contact)
+- [Terms of service](https://algoum.de/legal/terms)
+- [Privacy policy](https://algoum.de/legal/privacy)
+- [GitHub](https://github.com/fi4all)
+- [Status](https://api.algoum.de/v1/status)
+
+## API Evangelist rating
+
+**Kin Score 56.9** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 63.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 40.0 |
+| Developer ergonomics | 51.7 |
+| Access clarity | 34.2 |
+
+**Agent readiness 40.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 38.0** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/algoum-de/](https://apis.io/providers/algoum-de/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for algoum-de: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/algoum-de/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
